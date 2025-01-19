@@ -15,4 +15,4 @@ function oddCount(n) {
 
 
 
-console.log(oddCount(15));
+console.log(oddCount(15)); //7
