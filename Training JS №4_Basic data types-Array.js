@@ -1,11 +1,24 @@
-function findNeedle(haystack) {
-    let findIndex = 0;
-    for (let i = 0; i < haystack.length; i++) {
-        if (haystack[i] == "needle") {
-            findIndex = i;
-        }
-    }
-    return `found the needle at position ${findIndex}`
+let arr = []
+function getLength(arr) {
+    //return length of arr
+    return arr.length
 }
-
-console.log(findNeedle(['3', '123124234', undefined, 'needle', 'world', 'hay', 2, '3', true, false])); // 'found the needle at position 3' 
+function getFirst(arr) {
+    //return the first element of arr
+    return arr[0]
+}
+function getLast(arr) {
+    //return the last element of arr
+    return arr[arr.length - 1]
+}
+function pushElement(arr) {
+    var el = 1;
+    //push el to arr
+    arr.push(el)
+    return arr
+}
+function popElement(arr) {
+    //pop an element from arr
+    arr.pop()
+    return arr
+}
